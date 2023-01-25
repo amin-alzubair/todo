@@ -1,5 +1,3 @@
-
-import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
@@ -8,7 +6,6 @@ import 'package:path/path.dart';
 import '../../modeuls/archived_tasks/archived_tasks_screen.dart';
 import '../../modeuls/done_screen/done_tasks_screen.dart';
 import '../../modeuls/tasks_screen/tasks_screen.dart';
-import '../components/constans.dart';
 
 
 class AppCubit extends Cubit<AppStates> {
